@@ -1,0 +1,26 @@
+
+/*.wrapper{
+border-radius: 20px,
+align-items: center;
+}*/
+/*body {
+  background: #3C5A99;
+}*/
+h1{
+  width: 400px;
+}
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.wrapper{
+  
+  width: 400px;
+  margin: auto;
+  height: auto;
+  padding: 15px;
+  border-radius: 25px;
+  border-style: solid;
+
+}
