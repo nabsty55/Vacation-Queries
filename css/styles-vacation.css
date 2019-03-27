@@ -6,6 +6,11 @@ align-items: center;
 /*body {
   background: #3C5A99;
 }*/
+body{
+  background-image: url('../img/beach-bac.jpg');
+}
+
+}
 h1{
   width: 400px;
 }
@@ -15,7 +20,7 @@ h1{
   -moz-box-sizing: border-box;
 }
 .wrapper{
-  
+
   width: 400px;
   margin: auto;
   height: auto;
