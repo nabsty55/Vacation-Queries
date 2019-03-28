@@ -13,6 +13,7 @@ $(document).ready(function(){
     if ($answer2 === "above-2m"&&$answer5==="hot"){
       alert("consider travelling to the Bahamas!");
       $(".wrapper").hide();
+      $("#footer").hide();
       $("body").addClass("hide-bg");
       $("#bahamas").fadeIn(3000);
       $("#bahamas").click(function(){

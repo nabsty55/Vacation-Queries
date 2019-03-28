@@ -40,3 +40,8 @@ h1{
   border-style: solid;
 
 }
+#footer{
+  clear: both;
+  padding: 10px;
+  text-align: right;
+}
