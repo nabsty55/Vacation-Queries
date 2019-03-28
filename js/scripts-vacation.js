@@ -11,7 +11,7 @@ $(document).ready(function(){
   //  console.log($answer4);
   //  console.log($answer5);
     if ($answer2 === "above-2m"&&$answer5==="hot"){
-      alert("consider travelling to the Bahamas");
+      alert("consider travelling to the Bahamas!");
       $(".wrapper").hide();
       $("body").addClass("hide-bg");
       $("#bahamas").fadeIn(3000);
@@ -22,18 +22,74 @@ $(document).ready(function(){
       })
     }else if ($answer2 === "above-2m"&&$answer5==="cold") {
       alert("consider travelling to Sweden!");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#sweden").fadeIn(3000);
+      $("#sweden").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#sweden").hide();
+      })
     }else if ($answer2 === "btn-500k-2m"&&$answer3==="more-than-5-times"&&$answer5==="hot") {
-      alert("Consider travelling to Zanzibar");
+      alert("Consider travelling to Zanzibar!");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#zanzibar").fadeIn(3000);
+      $("#zanzibar").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#zanzibar").hide();
+      })
     }else if ($answer2 === "btn-500k-2m"&&$answer3==="more-than-5-times"&&$answer5==="cold") {
       alert("Consider travelling to the rwenzori moutains!")
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#rwenzori").fadeIn(3000);
+      $("#rwenzori").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#rwenzori").hide();
+      })
     }else if ($answer2 === "btn-500k-2m"&&($answer3==="never"||$answer3==="1-to-5-times")&&$answer5==="hot") {
-      alert("Consider travelling to Moroto");
+      alert("Consider travelling to Moroto!");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#moroto").fadeIn(3000);
+      $("#moroto").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#moroto").hide();
+      })
     }else if ($answer2 === "btn-500k-2m"&&($answer3==="never"||$answer3==="1-to-5-times")&&$answer5==="cold") {
-      alert("Consider travelling to Kabale");
+      alert("Consider travelling to Kabale!");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#kabale").fadeIn(3000);
+      $("#kabale").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#kabale").hide();
+      })
     }else if ($answer2 === "less-than-500k"&&($answer3==="never"||$answer3==="1-to-5-times"||$answer3==="more-than-5-times")&&$answer5==="cold") {
-      alert("Consider travelling to Kabale");
+      alert("Consider travelling to Kabale!");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#kabale").fadeIn(3000);
+      $("#kabale").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#kabale").hide();
+      })
     }else if ($answer2 === "less-than-500k"&&($answer3==="never"||$answer3==="1-to-5-times"||$answer3==="more-than-5-times")&&$answer5==="hot") {
-      alert("Consider travelling to Moroto");
+      alert("Consider travelling to Moroto!");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#moroto").fadeIn(3000);
+      $("#moroto").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#moroto").hide();
+      })
     }
   });
 
