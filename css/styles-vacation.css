@@ -6,9 +6,20 @@ align-items: center;
 /*body {
   background: #3C5A99;
 }*/
+.result{
+  display: none;
+
+}
 body{
   background-image: url('../img/beach-bac.jpg');
 }
+.hide-bg{
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 }
 h1{

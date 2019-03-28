@@ -12,6 +12,14 @@ $(document).ready(function(){
   //  console.log($answer5);
     if ($answer2 === "above-2m"&&$answer5==="hot"){
       alert("consider travelling to the Bahamas");
+      $(".wrapper").hide();
+      $("body").addClass("hide-bg");
+      $("#bahamas").fadeIn(3000);
+      $("#bahamas").click(function(){
+        $(".wrapper").show();
+        $("body").removeClass("hide-bg");
+        $("#bahamas").hide();
+      })
     }else if ($answer2 === "above-2m"&&$answer5==="cold") {
       alert("consider travelling to Sweden!");
     }else if ($answer2 === "btn-500k-2m"&&$answer3==="more-than-5-times"&&$answer5==="hot") {
@@ -22,9 +30,9 @@ $(document).ready(function(){
       alert("Consider travelling to Moroto");
     }else if ($answer2 === "btn-500k-2m"&&($answer3==="never"||$answer3==="1-to-5-times")&&$answer5==="cold") {
       alert("Consider travelling to Kabale");
-    }else if ($answer2 === "less-than-500k"&&($answer3==="never"||$answer3==="1-to-5-times")&&$answer5==="cold") {
+    }else if ($answer2 === "less-than-500k"&&($answer3==="never"||$answer3==="1-to-5-times"||$answer3==="more-than-5-times")&&$answer5==="cold") {
       alert("Consider travelling to Kabale");
-    }else if ($answer2 === "less-than-500k"&&($answer3==="never"||$answer3==="1-to-5-times")&&$answer5==="hot") {
+    }else if ($answer2 === "less-than-500k"&&($answer3==="never"||$answer3==="1-to-5-times"||$answer3==="more-than-5-times")&&$answer5==="hot") {
       alert("Consider travelling to Moroto");
     }
   });
